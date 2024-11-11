@@ -1,4 +1,4 @@
-I'll modify the markdown to change all instances of "jsonToDart" to "jsontodart" to maintain consistency in naming.
+I'll modify the markdown to change all instances of "jsontodart" to "jsontodart" to maintain consistency in naming.
 
 
 
@@ -35,7 +35,7 @@ I'll modify the markdown to change all instances of "jsonToDart" to "jsontodart"
 Install `jsontodart` in your command line by running:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/whitecodel/jsonToDart/refs/heads/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/whitecodel/jsontodart/refs/heads/main/install.sh | bash
 ```
 
 **Note**: This script detects your operating system and installs the appropriate executable in your PATH.
