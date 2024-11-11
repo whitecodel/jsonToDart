@@ -73,12 +73,12 @@ Customize your Dart models with the following command-line options:
 | `-s` | `--source` | JSON file path or URL (required) | - |
 | `-o` | `--outputDir` | Directory for generated Dart classes | `models` |
 | `-c` | `--className` | Name of the main class | Inferred from JSON |
-| `-n` | `--nullSafety` | Enable null safety | `false` |
-| `-e` | `--putEncoderDecoderInClass` | Include encoder/decoder in the class | `false` |
+| `-n` | `--nullSafety` | Enable null safety | `true` |
+| `-e` | `--putEncoderDecoderInClass` | Include encoder/decoder in the class | `true` |
 | `-r` | `--makeAllRequired` | Make all properties required | `false` |
 | `-f` | `--makeAllFinal` | Make all properties final | `false` |
 | `-w` | `--generateCopyWith` | Generate a `copyWith` method | `false` |
-| `-m` | `--numForNumber` | Use `num` for number types | `false` |
+| `-m` | `--numForNumber` | Use `num` for number types | `true` |
 
 ## Examples
 
