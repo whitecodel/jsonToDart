@@ -55,7 +55,7 @@ curl -fsSL https://raw.githubusercontent.com/whitecodel/jsontodart/refs/heads/ma
 Run `jsontodart` from the command line with your JSON source:
 
 ```bash
-jsontodart -s <source> -o <outputDir> -c <className> -n -e -r -f -w -m
+jsontodart -s <source>
 ```
 
 This command converts JSON data into Dart model classes with the specified options.
