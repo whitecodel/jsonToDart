@@ -12,14 +12,14 @@ case "${OS}" in
 esac
 
 # Determine binary file
-BINARY_URL="https://github.com/whitecodel/jsonToDart/releases/download/Initial/jsonToDart-${OS}"
+BINARY_URL="https://github.com/whitecodel/jsontodart/releases/download/Initial/jsontodart-${OS}"
 
 # Download and install
 if [ "$OS" = "win" ]; then
     BINARY_URL="${BINARY_URL}.exe"
-    INSTALL_PATH="/c/Windows/System32/jsonToDart.exe"
+    INSTALL_PATH="/c/Windows/System32/jsontodart.exe"
 else
-    INSTALL_PATH="/usr/local/bin/jsonToDart"
+    INSTALL_PATH="/usr/local/bin/jsontodart"
 fi
 
 echo "Downloading ${BINARY_URL}..."
@@ -30,5 +30,5 @@ if [ "$OS" != "win" ]; then
     chmod +x "$INSTALL_PATH"
 fi
 
-echo "jsonToDart installed successfully at $INSTALL_PATH"
-echo "Run 'jsonToDart -s <source>' to use."
+echo "jsontodart installed successfully at $INSTALL_PATH"
+echo "Run 'jsontodart -s <source>' to use."
