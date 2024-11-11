@@ -15,4 +15,4 @@
 To install `jsonToDart` and make it accessible from your command line, use the following command:
 
 ```bash
-curl -fsSL https://github.com/YOUR_USERNAME/jsonToDart/install.sh | bash
+curl -fsSL https://github.com/whitecodel/jsonToDart/install.sh | bash
