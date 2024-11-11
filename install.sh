@@ -12,7 +12,7 @@ case "${OS}" in
 esac
 
 # Determine binary file
-BINARY_URL="https://github.com/YOUR_USERNAME/jsonToDart/releases/latest/download/jsonToDart-${OS}"
+BINARY_URL="https://github.com/whitecodel/jsonToDart/releases/download/Initial/jsonToDart-${OS}"
 
 # Download and install
 if [ "$OS" = "win" ]; then
