@@ -1,7 +1,3 @@
-I'll modify the markdown to change all instances of "jsontodart" to "jsontodart" to maintain consistency in naming.
-
-
-
 # jsontodart
 
 `jsontodart` is a powerful command-line tool designed to streamline the process of generating Dart model classes from JSON data. Ideal for developers working with Flutter, it supports JSON files, URLs, and is available as a web tool and a Visual Studio Code extension.
